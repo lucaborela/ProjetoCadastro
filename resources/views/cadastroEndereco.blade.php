@@ -17,7 +17,7 @@
     <body>
         <div class="container" >
             <div class="d-flex justify-content-center">...</div>
-                 <H1>CADASTRE-SE</H1>
+                 <H1>CADASTRE O ENDEREÇO</H1>
        <div >
         
         
@@ -26,29 +26,47 @@
                
          <div class="row mt-8">
          <div>
-            <form method="POST" action="{{route ('salvarUsuario')}}">
+            <form method="POST" action="{{route ('salvarEndereco')}}">
             @csrf
 
                 <div class="row mt-3">
-                        <label for="nomeCompleto" class="form-label">Nome completo</label >
-                        <input type="text" class="form-control" id="nomeCompleto" name="nome">
+                        <label for="CEP" class="form-label">CEP</label >
+                        <input type="text" class="form-control" id="CEP" name="CEP">
                 </div>
      
                       <div class="row mt-3">
-                        <label for="dataNasc" class="form-label">Data de nascimento</label >
-                        <input type="date" class="form-control" id="dataNasc" name="data_nascimento">
+                        <label for="logradouro " class="form-label">Logradouro </label >
+                        <input type="text" class="form-control" id="logradouro " name="logradouro">
                        </div>
                        
                        
                        <div class="row mt-3">
-                        <label for="senha" class="form-label">Senha</label >
-                        <input type="password" class="form-control" id="senha" name="senha">
+                        <label for="numero " class="form-label">Número </label >
+                        <input type="number" class="form-control" id="numero " name="numero">
                        </div>
       
 
                       <div class="row mt-3">
-                        <label for="matricula" class="form-label">Matricula</label >
-                        <input type="number" class="form-control" id="matricula" name="matricula">
+                        <label for="bairro" class="form-label">Bairro</label >
+                        <input type="text" class="form-control" id="bairro" name="bairro">
+                       </div>
+
+                       
+                      <div class="row mt-3">
+                        <label for="complemento" class="form-label">Complemento</label >
+                        <input type="text" class="form-control" id="complemento" name="complemento">
+                       </div>
+
+                       
+                      <div class="row mt-3">
+                        <label for="cidade" class="form-label">Cidade</label >
+                        <input type="text" class="form-control" id="cidade" name="cidade">
+                       </div>
+
+                       
+                      <div class="row mt-3">
+                        <label for="estado" class="form-label">Estado</label >
+                        <input type="text" class="form-control" id="estado" name="estado">
                        </div>
                    
                      
