@@ -26,16 +26,16 @@
 
      
 
-       <div class="col-md-2">Estado</div>
+       <div class="col-md-2">Estado:</div>
        <div class="colmd-10">{{$endereco->estado}}</div>
 
-       <div class="col-md-2">Bairro</div>
+       <div class="col-md-2">Bairro:</div>
        <div class="colmd-10">{{$endereco->bairro}}</div>
 
-       <div class="col-md-2">Logradouro</div>
+       <div class="col-md-2">Logradouro:</div>
        <div class="colmd-10">{{$endereco->logradouro}}</div>
 
-       <div class="col-md-2">Número</div>
+       <div class="col-md-2">Número:</div>
        <div class="colmd-10">{{$endereco->numero}}</div>
 
        
